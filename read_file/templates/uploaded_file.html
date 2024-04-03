@@ -1,0 +1,18 @@
+<p>Полученный результат:</p>
+<table border="1" cellpadding="5">
+    <tr>
+        <th>Слова</th>
+        <th>tf</th>
+        <th>idf</th>
+    </tr>
+    <u1>    
+        {% for key, values in file.items %}
+        <tr>
+            <td>{{ key }}</td>
+            {% for value in values %}
+                <td>{{ value }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </u1>
+</table>
