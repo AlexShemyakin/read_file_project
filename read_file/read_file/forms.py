@@ -4,7 +4,7 @@ from .models import UploadedFile
 
 
 class UploadedFileForm(forms.ModelForm):
-    """Модель формы для загрузки файла."""
+    """Форма для загрузки файла."""
 
     class Meta:
         model = UploadedFile
